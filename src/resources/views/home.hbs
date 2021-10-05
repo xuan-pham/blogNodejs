@@ -1,0 +1,23 @@
+<div class="content_home">
+  <!-- khoá học-->
+  <div class="products_home">
+    <div class="text_product_home">
+      <h2 class="sectionList_heading_" >Khóa học nổi bật</h2>
+    </div>
+    <div class="row course_list_">
+      {{#each courses}}
+      <div class="product_list_">
+        <div class="card card-course-item">
+          <a href="/courses/{{this.slug}}"><img src="{{this.image}}" class="card-img-top" alt="{{this.name}}" /></a>
+          <div class="card-body" style="height:90px">
+            <a href="/courses/{{this.slug}}">
+              <h5 class="courseItem_title_">{{this.name}}</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+  <!---->
+</div>

@@ -1,0 +1,30 @@
+body {
+  max-width: 2531px; }
+
+a {
+  text-decoration: none; }
+
+.logo-user {
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 4px; }
+
+ul.navbar-nav.mb-2.mb-lg-0 {
+  margin-left: 86%; }
+
+.checkbox-select-all-option {
+  width: 160px;
+  margin: 0 16px; }
+
+.index_center_content {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto; }
+
+aside.main_left {
+  width: 150px;
+  margin-top: 15px; }
+
+article.main_right {
+  max-width: calc(100% - 150px);
+  padding: 0 40px 0 20px; }
